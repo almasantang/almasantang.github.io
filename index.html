@@ -2,8 +2,102 @@
 <html>
 <head>
 	<title>homepage</title>
+	<style type="text/css">
+		body {
+			margin-left:30px;
+			margin-top:20px;
+		}
+		.header {
+			font-family:arial;
+			font-size:50px;
+			color:blue;
+
+		}
+		.door {
+			display:inline-block;
+			margin-top:25px;
+			margin-left:100px;
+		}
+
+		.width-1:hover {
+			background-color:blue;
+			transition:1s;
+		}
+
+		.width-1 {
+			position:relative;
+			width:250px;
+			height:450px;
+			box-shadow:0px 0px 60px 20px blue;
+		}
+
+		.knob {
+			position:absolute;
+			bottom:215px;
+			right:15px;
+			width:25px;
+			height:25px;
+			background-color:blue;
+		}
+		.knob:hover {
+			background-color:white;
+		}
+
+		.box {
+			position:absolute;
+			top:20px;
+			left:20px;
+			border:dashed white 1px;
+			width:100px;
+			height:200px;
+		}
+		.box-2 {
+			position:absolute;
+			top:20px;
+			right:20px;
+			border:dashed white 1px;
+			width:100px;
+			height:200px;
+		}
+		.box-3 {
+			position:absolute;
+			bottom:20px;
+			right:20px;
+			border:dashed white 1px;
+			width:100px;
+			height:200px;
+		}
+		.box-4 {
+			position:absolute;
+			bottom:20px;
+			left:20px;
+			border:dashed white 1px;
+			width:100px;
+			height:200px;
+		}
+
+		.text {
+			padding-left:45px;
+			padding-top:35px;
+			font-family:arial;
+			font-size:50px;
+			color:white;
+
+
+		}
+	</style>
 </head>
 <body>
-	hello world
+	<div class="header"> Oh, hi you.<br>
+	</div>
+	<div class="door width-1">
+		<div class="text">please<br>come<br>in</div>
+		<div class="box"></div>
+		<div class="box-2"></div>
+		<div class="box-3"></div>
+		<div class="box-4"></div>
+			<div class="knob"></div>
+	</div>
+
 </body>
 </html>
