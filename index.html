@@ -5,29 +5,57 @@
 	<style type="text/css">
 		body {
 			margin-left:30px;
-			margin-top:20px;
+			margin-top:100px;
+			margin-right:30px;
 		}
 
 		.header {
 			font-family:arial;
-			font-size:30px;
+			font-size:50px;
 			color:black;
+			text-align:center;
+			padding-top:50px;
 		}
 
-		.door {
+		.my	{
+			color:blue;
+		}
+
+		.my:hover {
+			color:white;
+		}
+
+		.my:hover:before {
+			content:"ALMA SANTANG";
+			color:blue;
+			padding-left:30px;
+		}
+
+		.man {
+			width:40px;
+			height:40px;
+			margin: 0 auto;
+		}
+
+		img {
+			width:100%;
+		}
+
+		.door-align {
+			text-align:center;
+		}
+		.door{
 			display:inline-block;
-			margin-top:70px;
-			margin-left:100px;
-		}
-
-		.width-1 {
 			position:relative;
 			width:250px;
 			height:450px;
-			box-shadow:0px 0px 60px 20px blue;
+			margin-left:40px;
+			margin-right:40px;
+			margin-top:60px;
+			box-shadow:0px 0px 60px 10px blue;
 		}
 
-		.width-1:hover {
+		.door:hover {
 			background-color:blue;
 			transition:1s;
 		}
@@ -55,37 +83,19 @@
 			color:yellow;
 		}
 
-		.my	{
-			color:blue;
-		}
-
-		.my:hover {
-			color:white;
-		}
-
-		.my:hover:before {
-			content:"ALMA SANTANG";
-			color:blue;
-			padding-left:30px;
-			transition:1s;
-		}
-
 		.link {
 			padding-top:15px;
 			padding-left:15px;
-		}
-
-		.man {
-			width:20px;
-			height:20px;
-		}
-		img {
-			width:2%;
+			text-align:left;
 		}
 	</style>
 </head>
 
 <body>
+	<div class="man">
+		<img src="images/man.png">
+	</div>
+
 	<div class="header">Welcome to
 		<span class="my">
 			my
@@ -93,86 +103,112 @@
 			site.
 		<br>
 			Please come in.
-		<span class="man">
-			<img src="images/man.png">
-		</span>
 	</div>
 
-	<div class="door width-1">
-		<div class="link">
-			<a href="1_twitter/week1/tweet-1.html">
-				1 tomorrow
-			</a>
-			<br>
-			<a href="1_twitter/week1/tweet-2.html">
-				2 two body guards
-			</a>
-			<br>
-			<a href="1_twitter/week1/tweet-3.html">
-				3 cleaning organizing
-			</a>
-		<br>
-			<a href="1_twitter/week1/tweet-4.html">
-				4 a third assistant
-			</a>
-			<br>
-			<a href="1_twitter/week1/tweet-5.html">
-				5 what should we do?
-			</a>
-		</div>
-		<div class="knob">
-		</div>
-	</div>
 
-	<div class="door width-1">
-		<div class="link">
-			<a href="1_twitter/week2/tweet-6.html">
-				6 makin' mama
-			</a>
+	<div class="door-align">
+		<div class="door">
+			<div class="link">
+				<a href="1_twitter/week1/tweet-1.html">
+					1 tomorrow
+				</a>
 			<br>
-			<a href="1_twitter/week2/tweet-7.html">
-				7 love
-			</a>
+				<a href="1_twitter/week1/tweet-2.html">
+					2 two body guards
+				</a>
 			<br>
-			<a href="1_twitter/week2/tweet-8.html">
-				8 I slept so good
-			</a>
+				<a href="1_twitter/week1/tweet-3.html">
+					3 cleaning organizing
+				</a>
 			<br>
-			<a href="1_twitter/week2/tweet-9.html">
-				9 who else is deceased??
-			</a>
+				<a href="1_twitter/week1/tweet-4.html">
+					4 a third assistant
+				</a>
 			<br>
-			<a href="1_twitter/week2/tweet-10.html">
-				10 tomorrow
-			</a>
+				<a href="1_twitter/week1/tweet-5.html">
+					5 what should we do?
+				</a>
+			</div>
+			<div class="knob">
+			</div>
 		</div>
-		<div class="knob">
-		</div>
-	</div>
 
-	<div class="door width-1">
-		<div class="link">
-			<a href="1_twitter/week3/tweet-11.html">
-				11 about to hang out with
-			</a>
+		<div class="door">
+			<div class="link">
+				<a href="1_twitter/week2/tweet-6.html">
+					6 makin' mama
+				</a>
 			<br>
-			<a href="1_twitter/week3/tweet-12.html">
-				12 blue balls
-			</a>
+				<a href="1_twitter/week2/tweet-7.html">
+					7 love
+				</a>
 			<br>
-			<a href="1_twitter/week3/tweet-13.html">
-				13
-			</a>
+				<a href="1_twitter/week2/tweet-8.html">
+					8 I slept so good
+				</a>
 			<br>
-			<a href="1_twitter/week3/tweet-14.html">
-				14
-			</a>
+				<a href="1_twitter/week2/tweet-9.html">
+					9 who else is deceased??
+				</a>
 			<br>
-			<a href="1_twitter/week3/tweet-15.html">
-				15
-			</a>
+				<a href="1_twitter/week2/tweet-10.html">
+					10 tomorrow
+				</a>
+			</div>
+			<div class="knob">
+			</div>
 		</div>
-		<div class="knob">
+
+		<div class="door">
+			<div class="link">
+				<a href="1_twitter/week3/tweet-11.html">
+					11 about to hang out with
+				</a>
+			<br>
+				<a href="1_twitter/week3/tweet-12.html">
+					12 blue balls
+				</a>
+			<br>
+				<a href="1_twitter/week3/tweet-13.html">
+					13
+				</a>
+			<br>
+				<a href="1_twitter/week3/tweet-14.html">
+					14
+				</a>
+			<br>
+				<a href="1_twitter/week3/tweet-15.html">
+					15
+				</a>
+			</div>
+			<div class="knob">
+			</div>
+		</div>
+
+		<div class="door">
+			<div class="link">
+				<a href="1_twitter/week4/tweet-16.html">
+					16
+				</a>
+			<br>
+				<a href="1_twitter/week4/tweet-17.html">
+					17
+				</a>
+			<br>
+				<a href="1_twitter/week4/tweet-18.html">
+					18
+				</a>
+			<br>
+				<a href="1_twitter/week4/tweet-19.html">
+					19
+				</a>
+			<br>
+				<a href="1_twitter/week4/tweet-20.html">
+					20
+				</a>
+			</div>
+			<div class="knob">
+			</div>
 		</div>
 	</div>
 
