@@ -1,0 +1,142 @@
+/** {
+	outline:1px solid red;
+}*/
+
+body {
+	font-family: Arial;
+	font-size: 20px;
+	background-color:#f2f2f2;
+}
+
+a {
+	color:black;
+	font-size: 35px;
+	text-align:center;
+	text-decoration:none;
+}
+
+.width-50 {
+	width:50%;
+}
+
+img {
+	width: 90%;
+	margin:auto;
+}
+
+/*left grid starts here*/
+.fixed {
+	position:fixed;
+	width:50vw;
+	height:100vh;
+}
+
+.video {
+ 	height:100vh;
+ 	width:50vw;
+	position:relative;
+	object-fit:cover;
+}
+
+video {
+	height:100vh;
+	width:50vw;
+	object-fit:cover;
+}
+.box {
+	width:100vw;
+	height:100vh;
+}
+
+.video:hover .shop {
+	visibility:visible;
+}
+
+.shop {
+	background-color:lime;
+	mix-blend-mode:screen;
+	width:50vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:absolute;
+	top:0px;
+	right:0px;
+	visibility:hidden;
+}
+
+
+/*right grid starts here*/
+
+/*menubar starts here*/
+
+.nav {
+	width:50vw;
+	position:fixed;
+	left:50vw;
+	top:0px;
+	box-shadow:0 0 5px grey;
+	display:flex;
+	background-color:white;
+	text-align:center;
+}
+
+.nav-item-1 {
+	width:10%;
+	left:0x;
+	text-align:left;
+	cursor:pointer;
+}
+
+.nav-item-2 {
+	font-size: 35px;
+	margin:auto;
+	text-align:center;
+	text-decoration:line-through;
+}
+
+.nav-item-3 {
+	width:10%;
+	right:0px;
+	text-align:right;
+	cursor:pointer;
+}
+
+/*menubar ends here*/
+
+/*about page*/
+.about {
+	width: 50vw;
+	height:90vh;
+	position: fixed;
+	bottom:0px;
+	right:0px;
+	left:50vw;
+	background-color: lime;
+	margin-bottom:-100%;
+	overflow: hidden;
+	transition: 1s;
+}
+
+.about.active {
+	margin-bottom: 0%;
+	transition: 1s;
+}
+
+.title {
+	text-decoration:line-through;
+}
+
+
+/*main content*/
+
+.instagram {
+	box-shadow:0 0 2px grey;
+	border-radius:7px;
+}
+
+.offset-left {
+	margin-top:20%;
+	margin-left:5%;
+}
