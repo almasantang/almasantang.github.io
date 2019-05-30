@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tweet-18</title>
+	<style type="text/css">
+
+		body {
+			font-family:arial;
+			color:blue;
+		}
+		.bg {
+			width:100vw;
+			height:100vh;
+			background-color:blue;
+			-webkit-animation-name:bg;
+			-webkit-animation-duration:1s;
+			animation-iteration-count:infinite;
+			animation-timing-function:linear;
+			animation-direction:alternate;
+			position:fixed;
+			top:0px;
+			left:0px;
+		}
+
+		@-webkit-keyframes bg {
+			0%   {background-color:blue;}
+			50%  {background-color:orangered;}
+			100% {background-color:deepskyblue;}
+		}
+
+		.blink {
+			padding: 15px;
+			position:fixed;	
+			text-align: center;
+			margin:auto;
+			width:100vw;
+			height:100vh;
+		}
+
+		.one {
+			font-size: 150px;
+			font-family: impact;
+			color: white;
+			animation: blink 0.5s linear infinite;
+			line-height:160px;
+			padding-top:40px;
+		}
+
+		@keyframes blink {
+			0%{opacity: 0;}
+			100%{opacity: 1;}
+		}
+
+		.box-1 {
+			position:absolute;
+			top:900px;
+			left:20px;
+			mix-blend-mode: hard-light;
+		}
+
+		.box-2 {
+			position:absolute;
+			top:1200px;
+			right:20px;
+			mix-blend-mode: screen;
+		}
+
+		.box-3 {
+			position:absolute;
+			top:1500px;
+			left:100px;
+			mix-blend-mode:screen;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="bg">
+		<div class="blink">
+			<div class="date"> 🤷🤤</div>
+			<div class="one">SHOULD STOP</div>
+			<div class="one">CAN'T STOP</div>
+			<div class="one">WON'T STOP</div>
+			<div class="date"> 5.33 30.03.2019</div>
+		</div>
+	</div>
+
+	<div class="box-1">
+		<img src="https://media.giphy.com/media/Xh2VJhQ94MRJC/giphy.gif">
+	</div>
+
+	<div class="box-2">
+		<img src="https://media.giphy.com/media/hXdjZJ0E8VT3O/giphy.gif">
+	</div>
+
+	<div class="box-3">
+		<img src="https://media.giphy.com/media/pZzMzHvWs2M6s/giphy.gif">
+	</div>
+
+
+
+</body>
+</html>
