@@ -3,11 +3,261 @@
 <head>
 	<title>tweet-20</title>
 	<style type="text/css">
-		
+		body {
+			/*background-color:black;*/
+			font-family:courier;
+			background-color: red;
+		}
+
+		.container {
+			width:528;
+			height:840;
+			top:0;
+			left:0;
+			overflow:hidden;
+			-webkit-animation-name:bg;
+			-webkit-animation-duration:0.25s;
+			animation-iteration-count:infinite;
+			animation-timing-function:linear;
+			animation-direction:alternate;		
+		}
+
+		@-webkit-keyframes bg {
+			0%   {background-color:red;}
+			100% {background-color:black;}
+		}
+
+		.text {
+			width:500px;
+			height:350px;
+			font-size:70px;
+			text-align:center;
+			padding:50px;
+			border:20px dotted;
+			margin-top:90%;
+			margin-left:20%;
+			margin-bottom:10%;
+		}
+
+		.dont-1 {
+			mix-blend-mode:overlay;
+			position:absolute;
+			top:70px;
+			left:70px;
+			transition:all 1s ease;
+		}
+
+		.dont-1:hover {
+			top:70px;
+			left:160px;
+			transition:all 1s ease;
+		}
+
+		.dont-2 {
+			mix-blend-mode:difference;
+			position:absolute;
+			top:90px;
+			left:90px;
+			transition:all 1s ease;
+		}
+
+		.dont-2:hover {
+			top:90px;
+			left:180px;
+			transition:all 1s ease;
+		}
+
+		.dont-3 {
+			mix-blend-mode:exclusion;
+			position:absolute;
+			top:110px;
+			left:110px;
+			transition:all 1s ease;
+		}
+
+		.dont-3:hover {
+			top:110px;
+			left:200px;
+			transition:all 1s ease;
+		}
+
+		.warning-1 {
+			mix-blend-mode:exclusion;
+			position:absolute;
+			top:450px;
+			left:500px;
+			transition:all 1s ease;
+		}
+
+		.warning-1:hover {
+			top:250px;
+			left:450px;
+			transition:all 1s ease;
+		}
+
+		.warning-2 {
+			mix-blend-mode:screen;
+			position:absolute;
+			top:350px;
+			left:650px;
+			transition:all 1s ease;
+		}
+
+		.warning-2:hover {
+			top:350px;
+			left:600px;
+			transition:all 1s ease;
+		}
+
+		.warning-3 {
+			mix-blend-mode:difference;
+			position:absolute;
+			top:600px;
+			left:760px;
+			transition:all 1s ease;
+		}
+
+		.warning-3:hover {
+			top:650px;
+			left:750px;
+			transition:all 1s ease;
+		}
+
+		.warned-1 {
+			mix-blend-mode:exclusion;
+			position:absolute;
+			top:850px;
+			left:200px;
+			transition:all 1s ease;
+		}
+
+		.warned-1:hover {
+			top:800px;
+			left:180px;
+			transition:all 1s ease;
+		}
+
+		.warned-2 {
+			mix-blend-mode:difference;
+			position:absolute;
+			top:890px;
+			left:200px;
+			transition:all 1s ease;
+		}
+
+		.warned-2:hover {
+			top:850px;
+			left:250px;
+			transition:all 1s ease;
+		}
+
+		.warned-3 {
+			mix-blend-mode:exclusion;
+			position:absolute;
+			top:940px;
+			left:200px;
+			transition:all 1s ease;
+		}
+
+		.warned-3:hover {
+			top:970px;
+			left:230px;
+			transition:all 1s ease;
+		}
+
+		.come-1 {
+			mix-blend-mode:difference;
+			position:absolute;
+			top:1000px;
+			left:700px;
+			transition:all 1s ease;
+		}
+
+		.come-1:hover {
+			top:900px;
+			left:760px;
+			transition:all 1s ease;
+		}
+
+		.come-2 {
+			mix-blend-mode:difference;
+			position:absolute;
+			top:1340px;
+			left:0px;		
+		}
+
+		.come-2:hover {
+			top:1400px;
+			left:20px;
+			transition:all 1s ease;
+		}
+
+		span {
+			border:6px dashed;
+		}
+
+		.date {
+			text-align:right;
+			font-size:40px;
+		}
+
 	</style>
 </head>
 
 <body>
+	<div class="container">
+		<div class="dont-1">
+			<img src="https://media.giphy.com/media/8cfNwKytlzCVhhElCq/giphy.gif">
+		</div>
 
+		<div class="dont-2">
+			<img src="https://media.giphy.com/media/8cfNwKytlzCVhhElCq/giphy.gif">
+		</div>
+
+		<div class="dont-3">
+			<img src="https://media.giphy.com/media/8cfNwKytlzCVhhElCq/giphy.gif">
+		</div>
+
+		<div class="warning-1">
+			<img src="https://media.giphy.com/media/3o72FdlZi8rIgp6CHu/source.gif">
+		</div>
+
+		<div class="warning-2">
+			<img src="https://media.giphy.com/media/3o72FdlZi8rIgp6CHu/source.gif">
+		</div>
+
+		<div class="warning-3">
+			<img src="https://media.giphy.com/media/3o72FdlZi8rIgp6CHu/source.gif">
+		</div>
+
+		<div class="warned-1">
+			<img src="https://media.giphy.com/media/nJE2YUzeFsJeU/giphy.gif">
+		</div>
+
+		<div class="warned-2">
+			<img src="https://media.giphy.com/media/nJE2YUzeFsJeU/giphy.gif">
+		</div>
+
+		<div class="warned-3">
+			<img src="https://media.giphy.com/media/nJE2YUzeFsJeU/giphy.gif">
+		</div>
+
+		<div class="text">
+			<span>I'm the wrong bitch to fuck with.</span>
+		</div>
+
+		<div class="come-1">
+			<img src="https://media.giphy.com/media/l4FGlAzB4mvhb3TNe/source.gif">
+		</div>
+
+		<div class="come-2">
+			<img src="https://media.giphy.com/media/l4FGlAzB4mvhb3TNe/source.gif">
+		</div>
+
+		<div class="date">
+			020419 2:22!!!!!
+		</div>
+
+	</div>
 </body>
 </html>
