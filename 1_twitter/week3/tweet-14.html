@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tweet-14</title>
+	<style type="text/css">
+		body {
+			font-size:150px;
+			background-color:orangered;
+			font-family:impact;
+			letter-spacing:20px;
+		}
+		.header {
+			width:300px;
+			height:100px;
+			display:inline-block;
+			animation-name:gal;
+			animation-duration:1000ms;
+			animation-iteration-count:infinite;
+			animation-timing-function:linear;
+			animation-direction:alternate;
+		}
+		@keyframes gal {
+			from {
+				color:black;
+			}
+			to {
+				color:blue;
+			}
+		}
+		.box {
+			width:800px;
+			height:30px;
+			margin-left:250px;
+			margin-top:100px;
+			background-color:black;
+			animation-name:pindah;
+			animation-duration:20000ms;
+			animation-iteration-count:infinite;
+			animation-timing-function:linear;
+			animation-direction:alternate;
+		}
+		@keyframes pindah {
+			from {
+				transform:rotate(40deg);
+			}
+			to {
+				transform:rotate(-360deg);
+			}
+		}
+		.contain {
+			text-align:center;
+		}
+		.ready {
+			font-size:50px;
+			font-family:helvetica;
+			letter-spacing:0px;
+			color:black;
+			width:400px;
+			height:400px;
+			position:fixed;
+			text-align:;
+		}
+		.wake {
+			animation-name:bake;
+			animation-duration:1000ms;
+			animation-iteration-count:infinite;
+			animation-timing-function:linear;
+			animation-direction:alternate;
+		}
+		@keyframes bake {
+			from {
+				color:orange;
+			}
+			to {
+				color:yellow;
+			}
+		}
+
+
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		Girrrrrrrrl...
+	</div>
+	<div class="box">
+		are we ready to <span class="wake"> wake and bake?</span>
+	</div>
+	<div class="contain">
+		<div class="ready">
+			10:03 AM <br> 24 Mar 2019
+		</div>
+	</div>
+
+</body>
+</html>

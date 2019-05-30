@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tweet-15</title>
+	<style type="text/css">
+		body {
+			background-color:lightcoral;
+			font-family:impact;
+			font-size:100px;
+			text-align:center;
+			margin:auto;
+		}
+
+		.text {
+			color:lightpink;
+			position:fixed;
+			margin:auto;
+			padding-top:100px;
+		}
+
+		.names {
+			font-size:80px;
+			margin:auto;
+			padding-top:50px;
+			animation-duration: 3s;
+			animation-name: slidein-right;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+
+		.names-2 {
+			font-size:80px;
+			margin:auto;
+			padding-top:50px;
+			animation-duration: 3s;
+			animation-name: slidein-left;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+
+		@keyframes slidein-right {
+		  from {
+		    margin-left: 100%;
+		    width: 300%; 
+		  }
+
+		  to {
+		    margin-left: 0%;
+		    width: 100%;
+		  }
+		}
+
+		@keyframes slidein-left {
+		  from {
+		    margin-right: 100%;
+		    width: 300%; 
+		  }
+
+		  to {
+		    margin-right: 0%;
+		    width: 100%;
+		  }
+		}
+		.snow-container {
+		  position: absolute;
+		  height: 100vh;
+		  width: 100vw;
+		  max-width: 100%;
+		  top: 0;
+		  overflow: hidden;
+		  z-index: 2;
+		  pointer-events: none;
+		  background-color:pink;
+		  -webkit-animation-name: bg;
+		  -webkit-animation-duration:4s;
+		  animation-iteration-count:infinite;
+		  animation-timing-function:linear;
+		  animation-direction:alternate;
+		}
+
+		@-webkit-keyframes bg {
+		  0%   {background-color:lightcoral;}
+		  50%  {background-color:deeppink;}
+		  100% {background-color:crimson;}
+		}
+
+		.snow {
+		  display: block;
+		  position: absolute;
+		  z-index: 2;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  pointer-events: none;
+		  -webkit-transform: translate3d(0, -100%, 0);
+		          transform: translate3d(0, -100%, 0);
+		  -webkit-animation: snow linear infinite;
+		          animation: snow linear infinite;
+		          mix-blend-mode:screen;
+		}
+		.snow.foreground {
+		  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a8/Cannabis_leaf.svg");
+		  -webkit-animation-duration: 15s;
+		          animation-duration: 15s;
+		}
+		.snow.foreground.layered {
+		  -webkit-animation-delay: 7.5s;
+		          animation-delay: 7.5s;
+		}
+		.snow.middleground {
+		  background-image: image-url("https://upload.wikimedia.org/wikipedia/commons/a/a8/Cannabis_leaf.svg");
+		  -webkit-animation-duration: 20s;
+		          animation-duration: 20s;
+		}
+		.snow.middleground.layered {
+		  -webkit-animation-delay: 10s;
+		          animation-delay: 10s;
+		}
+		.snow.background {
+		  background-image: image-url("https://upload.wikimedia.org/wikipedia/commons/a/a8/Cannabis_leaf.svg");
+		  -webkit-animation-duration: 30s;
+		          animation-duration: 30s;
+		}
+		.snow.background.layered {
+		  -webkit-animation-delay: 15s;
+		          animation-delay: 15s;
+		}
+
+		@-webkit-keyframes snow {
+		  0% {
+		    -webkit-transform: translate3d(0, -100%, 0);
+		            transform: translate3d(0, -100%, 0);
+		  }
+		  100% {
+		    -webkit-transform: translate3d(15%, 100%, 0);
+		            transform: translate3d(15%, 100%, 0);
+		  }
+		}
+
+		@keyframes snow {
+		  0% {
+		    -webkit-transform: translate3d(0, -100%, 0);
+		            transform: translate3d(0, -100%, 0);
+		  }
+		  100% {
+		    -webkit-transform: translate3d(15%, 100%, 0);
+		            transform: translate3d(15%, 100%, 0);
+		  }
+		}
+
+	</style>
+
+</head>
+
+
+	<div class="snow-container">
+		<div class="names">
+			Can't Relate OG
+		</div>
+
+		<div class="text">
+			Imagine the prettiest pink weed strains
+		</div>
+
+		<div class="names-2">
+			<br><br><br>10.39 24.05.2019
+		</div>
+
+		<div class="snow foreground"></div>
+		<div class="snow foreground layered"></div>
+		<div class="snow middleground"></div>
+		<div class="snow middleground layered"></div>
+		<div class="snow background"></div>
+		<div class="snow background layered"></div>
+
+	</div>
+
+
+<body>
+
+</body>
+</html>
