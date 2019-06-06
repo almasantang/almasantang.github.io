@@ -21,7 +21,4 @@ $('.nav-item-1').click(function() {
 
 
 
-
-
-
 });

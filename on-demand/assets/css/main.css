@@ -1,6 +1,66 @@
-/** {
+* {
 	outline:1px solid red;
-}*/
+}
+
+/*PRELOADER PAGE*/
+.preload {
+	width:100%;
+	height:100%;
+	background-color:black;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;
+	animation:pulse 5s;
+}
+
+@keyframes pulse {
+	0% {
+		background-color:black;
+	}
+	50% {
+		background-color:grey;
+	}
+	100% {
+		background-color: white;
+	}
+}
+
+@keyframes fadeout {
+	from {opacity:1;}
+	to {opacity:0;}
+}
+
+.logo {
+	margin-top:24%;
+	font-size:70px;
+	text-align:center;
+}
+
+@keyframes strike{
+  0%   { width : 0; }
+  100% { width: 100%; }
+}
+
+.strike {
+  position: relative;
+}
+
+.strike::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: black;
+  animation-name: strike;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
+}
+/*PRELOADER ENDS HERE*/
 
 body {
 	font-family: Arial;
@@ -74,7 +134,6 @@ video {
 
 .shop {
 	background-color:lime;
-	mix-blend-mode:screen;
 	width:50vw;
 	height:100vh;
 	display:flex;
@@ -90,7 +149,6 @@ video {
 /*right grid starts here*/
 
 /*menubar starts here*/
-
 .nav {
 	width:50vw;
 	position:fixed;
@@ -122,7 +180,6 @@ video {
 	text-align:right;
 	cursor:pointer;
 }
-
 /*menubar ends here*/
 
 /*about page*/
@@ -153,6 +210,58 @@ video {
 	text-decoration:line-through;
 }
 
+/*contact page*/
+.contact {
+	width:50vw;
+	height:90vh;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	left:50vw;
+	background-color:lime;
+	margin-bottom:-100%;
+	overflow:scroll;
+	transition:1s;
+}
+
+.contact.active {
+	margin-bottom:0%;
+	transition:1s;
+}
+
+/*instagram story chapter*/
+.instagram-story {
+	width:50vw;
+	text-align:center;
+	box-shadow:0 0 2px grey;
+	padding-bottom:20px;
+	background-color:white;
+	/*display:flex;*/
+}
+
+.chapter {
+	text-align:center;
+	display:inline-block;
+	font-size:10px;
+	font-style:italic;
+	width:110px;
+	height:110px;
+	border:1px solid black;
+	border-radius:50%;
+	margin-left:9px;
+	margin-top:15%;
+	cursor:pointer;
+}
+
+.chapter:hover {
+	background-color:lime;
+}
+
+.chapter-name a {
+	font-size:10px;
+	width:110px;
+	height:110px;
+}
 
 /*main content*/
 
@@ -162,6 +271,11 @@ video {
 }
 
 .offset-left {
-	margin-top:20%;
-	margin-left:5%;
+	margin-top:5%;
+	margin-left:50%;
+}
+
+.offset-left-2 {
+	margin-top:0%;
+	margin-left:50%;
 }
