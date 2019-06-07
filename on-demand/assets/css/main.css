@@ -1,7 +1,7 @@
-* {
+/** {
 	outline:1px solid red;
 }
-
+*/
 /*PRELOADER PAGE*/
 .preload {
 	width:100%;
@@ -143,6 +143,7 @@ video {
 	top:0px;
 	right:0px;
 	visibility:hidden;
+	cursor:pointer;
 }
 
 
