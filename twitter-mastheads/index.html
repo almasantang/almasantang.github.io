@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homepage</title>
+	<style type="text/css">
+		body {
+			margin-left:30px;
+			margin-top:100px;
+			margin-right:30px;
+			background-color:black;
+		}
+
+		.header {
+			font-family:arial;
+			font-size:20px;
+			color:#97d8ea;
+			text-align:center;
+			padding-top:50px;
+			text-decoration:underline;
+		}
+
+		.please {
+			font-family:arial;
+			font-size:50px;
+			color:blue;
+			text-align:center;
+			padding-top:60px;
+		}
+
+		.my	{
+			color:#97d8ea;
+			text-decoration:underline;
+		}
+
+		.my:hover {
+			color:white;
+			color:black;
+		}
+
+		.my:hover:before {
+			content:"ALMA SANTANG";
+			color:blue;
+			padding-left:20px;
+		}
+
+		.man {
+			width:40px;
+			height:40px;
+			margin: 0 auto;
+		}
+
+		img {
+			width:100%;
+		}
+
+		.door-align {
+			text-align:center;
+		}
+		.door {
+			display:inline-block;
+			position:relative;
+			width:250px;
+			height:450px;
+			margin-left:40px;
+			margin-right:40px;
+			margin-top:60px;
+			box-shadow:0px 0px 60px 10px blue;
+			background-color:white;
+		}
+
+		.door:hover {
+			background-color:blue;
+			transition:1s;
+		}
+
+		.knob {
+			position:absolute;
+			bottom:215px;
+			right:15px;
+			width:25px;
+			height:25px;
+			background-color:blue;
+		}
+
+		.knob:hover {
+			background-color:white;
+		}
+
+		a {
+			font-family:arial;
+			font-size:20px;
+			color:white;
+		}
+
+		a:hover {
+			color:yellow;
+		}
+
+		.link {
+			padding-top:15px;
+			padding-left:15px;
+			text-align:left;
+		}
+
+		.snow-container {
+		  position: absolute;
+		  height: 100vh;
+		  width: 100vw;
+		  max-width: 100%;
+		  top: 0;
+		  overflow: hidden;
+		  z-index: 2;
+		  pointer-events: none;
+		}
+
+		.snow {
+		  display: block;
+		  position: absolute;
+		  z-index: 2;
+		  top: 0;
+		  right: 0;
+		  bottom: 0;
+		  left: 0;
+		  pointer-events: none;
+		  -webkit-transform: translate3d(0, -100%, 0);
+		          transform: translate3d(0, -100%, 0);
+		  -webkit-animation: snow linear infinite;
+		          animation: snow linear infinite;
+		}
+		.snow.foreground {
+		  background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
+		  -webkit-animation-duration: 15s;
+		          animation-duration: 15s;
+		}
+		.snow.foreground.layered {
+		  -webkit-animation-delay: 7.5s;
+		          animation-delay: 7.5s;
+		}
+		.snow.middleground {
+		  background-image: image-url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png");
+		  -webkit-animation-duration: 20s;
+		          animation-duration: 20s;
+		}
+		.snow.middleground.layered {
+		  -webkit-animation-delay: 10s;
+		          animation-delay: 10s;
+		}
+		.snow.background {
+		  background-image: image-url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
+		  -webkit-animation-duration: 30s;
+		          animation-duration: 30s;
+		}
+		.snow.background.layered {
+		  -webkit-animation-delay: 15s;
+		          animation-delay: 15s;
+		}
+
+		@-webkit-keyframes snow {
+		  0% {
+		    -webkit-transform: translate3d(0, -100%, 0);
+		            transform: translate3d(0, -100%, 0);
+		  }
+		  100% {
+		    -webkit-transform: translate3d(15%, 100%, 0);
+		            transform: translate3d(15%, 100%, 0);
+		  }
+		}
+
+		@keyframes snow {
+		  0% {
+		    -webkit-transform: translate3d(0, -100%, 0);
+		            transform: translate3d(0, -100%, 0);
+		  }
+		  100% {
+		    -webkit-transform: translate3d(15%, 100%, 0);
+		            transform: translate3d(15%, 100%, 0);
+		  }
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="man">
+		<img src="images/man.png">
+	</div>
+
+	<div class="header">Welcome to
+		<span class="my">
+			my*
+		</span>
+			site.
+	</div>
+	<div class="please">
+		It's cold outside. Please come in.
+	</div>
+
+
+	<div class="door-align">
+		<div class="door">
+			<div class="link">
+				<a href="week1/tweet-1.html">
+					1 tomorrow
+				</a>
+			<br>
+				<a href="week1/tweet-2.html">
+					2 two body guards
+				</a>
+			<br>
+				<a href="week1/tweet-3.html">
+					3 cleaning organizing
+				</a>
+			<br>
+				<a href="week1/tweet-4.html">
+					4 a third assistant
+				</a>
+			<br>
+				<a href="week1/tweet-5.html">
+					5 what should we do?
+				</a>
+			</div>
+			<div class="knob">
+			</div>
+		</div>
+
+		<div class="door">
+			<div class="link">
+				<a href="week2/tweet-6.html">
+					6 makin' mama
+				</a>
+			<br>
+				<a href="week2/tweet-7.html">
+					7 love
+				</a>
+			<br>
+				<a href="week2/tweet-8.html">
+					8 I slept so good
+				</a>
+			<br>
+				<a href="week2/tweet-9.html">
+					9 who else is deceased??
+				</a>
+			<br>
+				<a href="week2/tweet-10.html">
+					10 tomorrow
+				</a>
+			</div>
+			<div class="knob">
+			</div>
+		</div>
+
+		<div class="door">
+			<div class="link">
+				<a href="week3/tweet-11.html">
+					11 about to hang out with
+				</a>
+			<br>
+				<a href="week3/tweet-12.html">
+					12 blue balls
+				</a>
+			<br>
+				<a href="week3/tweet-13.html">
+					13 YELP
+				</a>
+			<br>
+				<a href="week3/tweet-14.html">
+					14 are we ready?
+				</a>
+			<br>
+				<a href="week3/tweet-15.html">
+					15 imagine
+				</a>
+			</div>
+			<div class="knob">
+			</div>
+		</div>
+
+		<div class="door">
+			<div class="link">
+				<a href="week4/tweet-16.html">
+					16 you guys crashed
+				</a>
+			<br>
+				<a href="week4/tweet-17.html">
+					17 bank account
+				</a>
+			<br>
+				<a href="week4/tweet-18.html">
+					18 should stop
+				</a>
+			<br>
+				<a href="week4/tweet-19.html">
+					19 mood
+				</a>
+			<br>
+				<a href="week4/tweet-20.html">
+					20 wrong
+				</a>
+			</div>
+			<div class="knob">
+			</div>
+		</div>
+	</div>
+
+	<div class="snow-container">
+	  <div class="snow foreground"></div>
+	  <div class="snow foreground layered"></div>
+	  <div class="snow middleground"></div>
+	  <div class="snow middleground layered"></div>
+	  <div class="snow background"></div>
+	  <div class="snow background layered"></div>
+	</div>
+
+
+</body>
+</html>
