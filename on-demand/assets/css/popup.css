@@ -1,0 +1,117 @@
+.popup-link {
+	color:lime;
+	cursor: pointer;
+	font-style:italic;
+	width:50px;
+	height:50px;
+	border:1px solid black;
+	border-radius:50%;
+}
+
+.shape {
+	width: 250px;
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+	display: none;
+}
+
+.shape-2 {
+	width: 300px;
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+	display: none;
+}
+
+.shape-3 {
+	width: 200px;
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+	display: none;
+}
+
+.s-1 {
+	top:480px;
+	right:20px;
+}
+
+.s-2 {
+	top:900px;
+	right:60px;
+}
+
+.s-3 {
+	top:1350px;
+	right:80px;
+}
+
+.s-4 {
+	top:800px;
+	right:30px;
+}
+
+.s-5 {
+	top:900px;
+	right:300px;
+}
+
+.s-6 {
+	top:1000px;
+	right:200px;
+}
+
+.s-7 {
+	top:450px;
+	right:50px;
+}
+
+.s-8 {
+	top:550px;
+	right:350px;
+}
+
+.s-9 {
+	top:600px;
+	right:250px;
+}
+
+.s-10 {
+	top:700px;
+	right:50px;
+}
+
+.s-11 {
+	top:450px;
+	right:50px;
+}
+
+.s-12 {
+	top:500px;
+	right:200px;
+}
+
+.s-13 {
+	top:1100px;
+	right:20px;
+}
+
+.s-14 {
+	top:350px;
+	right:150px;
+}
+
+.s-15 {
+	top:800px;
+	right:250px;
+}
+
+.s-16 {
+	top:1000px;
+	right:50px;
+}
+
+.show {
+	display: block;
+}

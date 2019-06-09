@@ -3,32 +3,57 @@
   <head>
     <meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Product: Natural</title>
+    <title>Product: Natural — Cereal</title>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
   	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="assets/css/grid.css" type="text/css">
     <link rel="stylesheet" href="assets/css/colour.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/chapter.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/scrolling-text.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/popup.css" type="text/css">
   	<script src="assets/js/jquery-3.4.1.min.js"></script>
   	<script src="assets/js/main.js"></script>
     <script src="assets/js/slide.js"></script>
+    <script src="assets/js/popup.js"></script>
   </head>
 
   <body>
+
+
     <div class="grid">
       <!--   start left col here -->
-      <div class="col w-1of2">
-        <div class="content fixed">
-          <div class="video">
-            <video autoplay loop id="video">
-              <source src="assets/images/video-full.mp4" type='video/mp4'/>
-            </video>
-<!--             <div class="box"></div>
-            <div class="caption">
-              <a class="shop" href="https://au.blurb.com/b/9460805-product-natural">BUY THE BOOK</a>
-            </div> -->
+
+        <div class="col w-1of2">
+          <div class="content fixed">
+            <div class="scroll">
+              <a href="https://au.blurb.com/b/9460805-product-natural" target="_blank">
+                <div class="shop-button">
+                  <marquee behavior="scroll" direction="left">BUY THE BOOK — CLICK HERE &ensp;&ensp;&ensp; BUY THE BOOK NOW — CLICK HERE</marquee>
+                </div>
+              </a>
+              
+              <a href="https://au.blurb.com/b/9460805-product-natural" target="_blank">
+                <div class="shop-button-2">
+                  <marquee behavior="scroll" direction="right">BUY THE BOOK — CLICK HERE &ensp;&ensp;&ensp; BUY THE BOOK NOW — CLICK HERE</marquee>
+                </div>
+              </a>
+
+              <div class="animated-book">
+               <div class="box-holder" style="animation-play-state: running !important;">
+                <div class="box--front"></div>
+                <div class="box--side-left"></div>
+                <div class="box--side-right"></div>
+                <div class="box--top"></div>
+                <div class="box--bottom"></div>
+                <div class="box--back"></div>
+               </div>
+              </div>
+            </div>
+            
+              
+
           </div>
         </div>
-      </div>
       <!--   end left col here -->
 
       <!--   start right col/nav here -->
@@ -51,7 +76,7 @@
         </a>
         
         <a class="chapter-name" href="chapter-2.html">
-          <div class="chapter">
+          <div class="chapter-active">
             <div class="chapter-name-2"><br><br><br><br><br>CEREAL</div>
           </div>
         </a>
@@ -73,26 +98,43 @@
             <div class="chapter-name-5"><br><br><br><br>SUBLIMINAL<br>ADS/IDEOLOGY</div>
           </div>
         </a>
+
+
       </div>
         <!-- INSTAGRAM STORY CHAPTER ENDS HERE -->
 
-        <!-- INSTAGRAM PICS STARTS HERE -->
-        <div class="content-2 offset-left">
-          <img class="instagram" src="assets/images/book-1.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-2.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-3.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-4.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-5.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-6.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-7.jpg">
-        </div>
-      <!-- INSTAGRAM PICS ENDS HERE -->
+      <!-- MAIN CONTENTS WITH POPUP STARTS HERE -->
+      <div class="content-2 offset-left text">
+        <br>“Which would you rather put on your kids cereal?”
+        <br><br><br><br>
+        Personally, the cereals that I eat are already loaded with <span class="l-4 popup-link">sugar,</span> so this isn’t really a <span class="l-5 popup-link">personal</span> issue.
+        <br><br><br><br><br><br><br><br>
+        I’m rather hesitant to inject myself in the gut with insulin simply because “there’s really no substitute” for <span class="l-6 popup-link">sugar.</span> 
+      </div>
+      <!-- MAIN CONTENTS ENDS HERE -->
+
+      <!-- MAIN CONTENTS WITH DRAG STARTS HERE -->
+<!--       <div class="content-2 offset-left text">
+        ...one of the hardest choices of all is deciding on the kinds of foods you want your family to eat.
+        <br><br><br><br><br><br><br><br>
+        It’s so reassuring to know that when it comes to table-spreads, now, more than ever, butter is the natural choice.
+        <br><br><br><br><br><br><br><br>
+        Nothing else tastes like it.
+        <br><br><br><br><br><br><br><br>
+        Nothing else smells like it. 
+      </div> -->
+      <!-- MAIN CONTENTS ENDS HERE -->
+
+
+      <!-- popup -->
+      <div class="s-4 shape"><img src="assets/images/cereal-1.jpg"></div>
+      <div class="s-5 shape"><img src="assets/images/cereal-2.jpg"></div>
+      <div class="s-6 shape-2"><img src="assets/images/cereal-3.jpg"></div>
+
+      <!-- drag -->
+
+
+
 
       <!-- ABOUT STARTS HERE -->
       <div class="about">

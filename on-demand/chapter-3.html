@@ -3,32 +3,63 @@
   <head>
     <meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Product: Natural</title>
+    <title>Product: Natural — Natural</title>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
   	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="assets/css/grid.css" type="text/css">
     <link rel="stylesheet" href="assets/css/colour.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/chapter.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/scrolling-text.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/popup.css" type="text/css">
   	<script src="assets/js/jquery-3.4.1.min.js"></script>
   	<script src="assets/js/main.js"></script>
     <script src="assets/js/slide.js"></script>
+    <script src="assets/js/popup.js"></script>
   </head>
 
   <body>
+
+
     <div class="grid">
       <!--   start left col here -->
-      <div class="col w-1of2">
-        <div class="content fixed">
-          <div class="video">
-            <video autoplay loop id="video">
-              <source src="assets/images/video-full.mp4" type='video/mp4'/>
-            </video>
-<!--             <div class="box"></div>
-            <div class="caption">
-              <a class="shop" href="https://au.blurb.com/b/9460805-product-natural">BUY THE BOOK</a>
-            </div> -->
+
+        <div class="col w-1of2">
+          <div class="content fixed">
+            <div class="scroll">
+              <a href="https://au.blurb.com/b/9460805-product-natural" target="_blank">
+                <div class="shop-button">
+                  <marquee behavior="scroll" direction="left">BUY THE BOOK — CLICK HERE &ensp;&ensp;&ensp; BUY THE BOOK NOW — CLICK HERE</marquee>
+                </div>
+              </a>
+              
+              <a href="https://au.blurb.com/b/9460805-product-natural" target="_blank">
+                <div class="shop-button-2">
+                  <marquee behavior="scroll" direction="right">BUY THE BOOK — CLICK HERE &ensp;&ensp;&ensp; BUY THE BOOK NOW — CLICK HERE</marquee>
+                </div>
+              </a>
+
+              <a href="https://au.blurb.com/b/9460805-product-natural" target="_blank">
+                <div class="shop-button-3">
+                  <marquee behavior="scroll" direction="left">BUY THE BOOK — CLICK HERE &ensp;&ensp;&ensp; BUY THE BOOK NOW — CLICK HERE</marquee>
+                </div>
+              </a>
+
+              <div class="animated-book">
+               <div class="box-holder" style="animation-play-state: running !important;">
+                <div class="box--front"></div>
+                <div class="box--side-left"></div>
+                <div class="box--side-right"></div>
+                <div class="box--top"></div>
+                <div class="box--bottom"></div>
+                <div class="box--back"></div>
+               </div>
+              </div>
+            </div>
+            
+              
+
           </div>
         </div>
-      </div>
       <!--   end left col here -->
 
       <!--   start right col/nav here -->
@@ -57,7 +88,7 @@
         </a>
         
         <a class="chapter-name" href="chapter-3.html">
-          <div class="chapter">
+          <div class="chapter-active">
             <div class="chapter-name-3"><br><br><br><br><br>NATURAL</div>
           </div>
         </a>
@@ -73,26 +104,30 @@
             <div class="chapter-name-5"><br><br><br><br>SUBLIMINAL<br>ADS/IDEOLOGY</div>
           </div>
         </a>
+
+
       </div>
         <!-- INSTAGRAM STORY CHAPTER ENDS HERE -->
 
-        <!-- INSTAGRAM PICS STARTS HERE -->
-        <div class="content-2 offset-left">
-          <img class="instagram" src="assets/images/book-1.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-2.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-3.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-4.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-5.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-6.jpg">
-          <br><br><br><br><br>
-          <img class="instagram" src="assets/images/book-7.jpg">
-        </div>
-      <!-- INSTAGRAM PICS ENDS HERE -->
+      <!-- MAIN CONTENTS WITH POPUP STARTS HERE -->
+      <div class="content-2 offset-left text">
+        <br>About <span class="l-7 popup-link">1,770,000,000</span> results
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        (0.49 seconds)
+        <br>
+      </div>
+      <!-- MAIN CONTENTS ENDS HERE -->
+
+      <!-- popup -->
+      <div class="s-7 shape"><img src="assets/images/natural-1.jpg"></div>
+      <div class="s-8 shape"><img src="assets/images/natural-2.jpg"></div>
+      <div class="s-9 shape-2"><img src="assets/images/natural-3.jpg"></div>
+      <div class="s-10 shape-2"><img src="assets/images/natural-4.jpg"></div>
+
+      <!-- drag -->
+
+
+
 
       <!-- ABOUT STARTS HERE -->
       <div class="about">
