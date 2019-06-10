@@ -15,6 +15,7 @@
 
 .content {
 	padding:0px;
+	z-index:-1;
 }
 
 .content-1 {
