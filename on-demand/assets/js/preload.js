@@ -10,7 +10,7 @@
 			window.open("main-page.html", "_self");
 		} 
 		else {
-			loading +=  1;
+			loading = loading + 1;
 			if(loading == 90) {
 				preload.style.animation = "fadeOut 1s ease";
 			}
