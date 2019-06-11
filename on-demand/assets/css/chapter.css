@@ -1,5 +1,3 @@
-/*CHAPTER 1 – BUTTER*/
-
 .text {
 	text-align:left;
 	font-size:50px;
@@ -9,194 +7,192 @@
   z-index:1;
 }
 
-.shop-button {
-  padding:1px;
-  font-size:18px;
-  width:60vw;
-  height:20px;
-  top:580px;
-  left:-100px;
-  background-color:lime;
-  position:absolute;
-  cursor:pointer;
-  transform: rotate(10deg);
-  z-index:1;
-}
+/*SCROLLING TEXT SHOP BANNER STARTS HERE*/
+    .shop-button {
+      padding:1px;
+      font-size:18px;
+      width:60vw;
+      height:20px;
+      top:580px;
+      left:-100px;
+      background-color:lime;
+      position:absolute;
+      cursor:pointer;
+      transform: rotate(10deg);
+      z-index:1;
+    }
 
-.shop-button-2 {
-  padding:1px;
-  font-size:18px;
-  width:60vw;
-  height:20px;
-  top:540px;
-  left:-100px;
-  background-color:lime;
-  position:absolute;
-  cursor:pointer;
-  transform: rotate(-10deg);
-  z-index:1;
-  box-shadow:0px 0px 5px #888888;
-}
+    .shop-button-2 {
+      padding:1px;
+      font-size:18px;
+      width:60vw;
+      height:20px;
+      top:540px;
+      left:-100px;
+      background-color:lime;
+      position:absolute;
+      cursor:pointer;
+      transform: rotate(-10deg);
+      z-index:1;
+      box-shadow:0px 0px 5px #888888;
+    }
 
-.shop-button-3 {
-  padding:1px;
-  font-size:18px;
-  width:60vw;
-  height:20px;
-  top:450px;
-  left:-100px;
-  background-color:lime;
-  position:absolute;
-  cursor:pointer;
-  transform: rotate(5deg);
-  z-index:1;
-  box-shadow:0px 0px 5px #888888;
-}
+    .shop-button-3 {
+      padding:1px;
+      font-size:18px;
+      width:60vw;
+      height:20px;
+      top:450px;
+      left:-100px;
+      background-color:lime;
+      position:absolute;
+      cursor:pointer;
+      transform: rotate(5deg);
+      z-index:1;
+      box-shadow:0px 0px 5px #888888;
+    }
 
-.shop-button-4 {
-  padding:1px;
-  font-size:18px;
-  width:60vw;
-  height:20px;
-  top:200px;
-  left:-100px;
-  background-color:lime;
-  position:absolute;
-  cursor:pointer;
-  transform: rotate(-10deg);
-  z-index:1;
-  box-shadow:0px 0px 5px #888888;
-}
+    .shop-button-4 {
+      padding:1px;
+      font-size:18px;
+      width:60vw;
+      height:20px;
+      top:200px;
+      left:-100px;
+      background-color:lime;
+      position:absolute;
+      cursor:pointer;
+      transform: rotate(-10deg);
+      z-index:1;
+      box-shadow:0px 0px 5px #888888;
+    }
 
-.shop-button-5 {
-  padding:1px;
-  font-size:18px;
-  width:60vw;
-  height:20px;
-  top:100px;
-  left:-100px;
-  background-color:lime;
-  position:absolute;
-  cursor:pointer;
-  transform: rotate(20deg);
-  z-index:1;
-  box-shadow:0px 0px 5px #888888;
-}
+    .shop-button-5 {
+      padding:1px;
+      font-size:18px;
+      width:60vw;
+      height:20px;
+      top:100px;
+      left:-100px;
+      background-color:lime;
+      position:absolute;
+      cursor:pointer;
+      transform: rotate(20deg);
+      z-index:1;
+      box-shadow:0px 0px 5px #888888;
+    }
 
 /*ROTATING BOOK STARTS HERE*/
-@-webkit-keyframes rotatingAnimation {
-  0% {
-    -webkit-transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(0deg);
-            transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(0deg);
-  }
-  100% {
-    -webkit-transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(360deg);
-            transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(360deg);
-  }
-}
-@keyframes rotatingAnimation {
-  0% {
-    -webkit-transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(0deg);
-            transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(0deg);
-  }
-  100% {
-    -webkit-transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(360deg);
-            transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(360deg);
-  }
-}
+    @-webkit-keyframes rotatingAnimation {
+      0% {
+        -webkit-transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(0deg);
+                transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(0deg);
+      }
+      100% {
+        -webkit-transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(360deg);
+                transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(360deg);
+      }
+    }
 
-.scroll {
-  width:50vw;
-  height:100vh;
-}
+    @keyframes rotatingAnimation {
+      0% {
+        -webkit-transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(0deg);
+                transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(0deg);
+      }
+      100% {
+        -webkit-transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(360deg);
+                transform: rotateX(16deg) translate3d(0, 0, 0px) rotateY(360deg);
+      }
+    }
 
-.animated-book {
-  width: 50vw;
-  height: 100vh;
-  -webkit-perspective: 1200px;
-          perspective: 1200px;
-  background-color:black;
-  background-size: contain;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/*
-  For sanity reasons, try to view this element as 
-  a "platter" where you put all your "things" in 3d-space.
-*/
-.box-holder {
-  -webkit-transform: rotateY(10deg);
-          transform: rotateY(10deg);
-  -webkit-animation: 10000ms rotatingAnimation linear infinite;
-          animation: 10000ms rotatingAnimation linear infinite;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-}
-.box-holder > div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
+    .scroll {
+      width:50vw;
+      height:100vh;
+    }
 
-/* 
-  a note on the transforms. we first offset all planes so
-  it sits in the middle of the platter. Then next we apply
-  another offset where it sits from the 'middle'. e.g.:
-  the 'platter' container is 100x100px; then:
-  transform: translate3d(-50px, -50px ,0) translate3d(1337px, 80085px,0)
-*/
-.box--front {
-  width: 200px;
-  height: 300px;
-  background: url(https://pbs.twimg.com/media/D8YVV1xU8AEqMBZ.jpg) no-repeat center right;
-  background-size: auto 100%;
-  -webkit-transform: translate3d(-100px, -150px, 0) translate3d(0, 0, 0) rotateY(0deg);
-          transform: translate3d(-100px, -150px, 0) translate3d(0, 0, 0) rotateY(0deg);
-}
-.box--back {
-  width: 200px;
-  height: 300px;
-  background: url(https://pbs.twimg.com/media/D8YVV1xU8AEqMBZ.jpg) no-repeat center left;
-  background-size: auto 100%;
-  -webkit-transform: translate3d(-100px, -150px, 0) translate3d(0, 0, -16px) rotateY(180deg);
-          transform: translate3d(-100px, -150px, 0) translate3d(0, 0, -16px) rotateY(180deg);
-}
-.box--side-left {
-  width: 16px;
-  height: 300px;
-  background: #f0f;
-  background: url(https://pbs.twimg.com/media/D8YVV1xU8AEqMBZ.jpg) no-repeat center center;
-  background-size: auto 100%;
-  -webkit-transform: translate3d(-100px, -150px, 0) translate3d(-8px, 0, -8px) rotateY(-90deg);
-          transform: translate3d(-100px, -150px, 0) translate3d(-8px, 0, -8px) rotateY(-90deg);
-}
-.box--side-right {
-  width: 16px;
-  height: 300px;
-  background: url(https://s3-ap-southeast-2.amazonaws.com/mephystoprojects/alice/paper.jpg) no-repeat center center;
-  background-size: cover;
-  -webkit-transform: translate3d(-100px, -150px, 0) translate3d(192px, 0px, -8px) rotateY(90deg);
-          transform: translate3d(-100px, -150px, 0) translate3d(192px, 0px, -8px) rotateY(90deg);
-}
-.box--top {
-  width: 200px;
-  height: 16px;
-  background: #00f;
-  background: url(https://s3-ap-southeast-2.amazonaws.com/mephystoprojects/alice/paper-horizontal.jpg) no-repeat center center;
-  background-size: cover;
-  -webkit-transform: translate3d(-100px, -150px, 0) translate3d(0px, -8px, 8px) rotateX(90deg);
-          transform: translate3d(-100px, -150px, 0) translate3d(0px, -8px, 8px) rotateX(90deg);
-}
-.box--bottom {
-  width: 200px;
-  height: 16px;
-  background: #000;
-  background: url(https://s3-ap-southeast-2.amazonaws.com/mephystoprojects/alice/paper-horizontal.jpg) no-repeat center center;
-  background-size: cover;
-  -webkit-transform: translate3d(-100px, -150px, 0) translate3d(0px, 292px, -8px) rotateX(-90deg);
-          transform: translate3d(-100px, -150px, 0) translate3d(0px, 292px, -8px) rotateX(-90deg);
-}
+    .animated-book {
+      width: 50vw;
+      height: 100vh;
+      -webkit-perspective: 1200px;
+              perspective: 1200px;
+      background-color:black;
+      background-size: contain;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .box-holder {
+      -webkit-transform: rotateY(10deg);
+              transform: rotateY(10deg);
+      -webkit-animation: 10000ms rotatingAnimation linear infinite;
+              animation: 10000ms rotatingAnimation linear infinite;
+      -webkit-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+    }
+
+    .box-holder > div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+    }
+
+    .box--front {
+      width: 200px;
+      height: 300px;
+      background: url(https://pbs.twimg.com/media/D8v2gWkUEAEj1_N.jpg) no-repeat center right;
+      background-size: auto 100%;
+      -webkit-transform: translate3d(-100px, -150px, 0) translate3d(0, 0, 0) rotateY(0deg);
+              transform: translate3d(-100px, -150px, 0) translate3d(0, 0, 0) rotateY(0deg);
+    }
+
+    .box--back {
+      width: 200px;
+      height: 300px;
+      background: url(https://pbs.twimg.com/media/D8v2gWkUEAEj1_N.jpg) no-repeat center left;
+      background-size: auto 100%;
+      -webkit-transform: translate3d(-100px, -150px, 0) translate3d(0, 0, -16px) rotateY(180deg);
+              transform: translate3d(-100px, -150px, 0) translate3d(0, 0, -16px) rotateY(180deg);
+    }
+
+    .box--side-left {
+      width: 16px;
+      height: 300px;
+      background: #f0f;
+      background: url(https://pbs.twimg.com/media/D8v2gWkUEAEj1_N.jpg) no-repeat center center;
+      background-size: auto 100%;
+      -webkit-transform: translate3d(-100px, -150px, 0) translate3d(-8px, 0, -8px) rotateY(-90deg);
+              transform: translate3d(-100px, -150px, 0) translate3d(-8px, 0, -8px) rotateY(-90deg);
+    }
+
+    .box--side-right {
+      width: 16px;
+      height: 300px;
+      background: url(https://s3-ap-southeast-2.amazonaws.com/mephystoprojects/alice/paper.jpg) no-repeat center center;
+      background-size: cover;
+      -webkit-transform: translate3d(-100px, -150px, 0) translate3d(192px, 0px, -8px) rotateY(90deg);
+              transform: translate3d(-100px, -150px, 0) translate3d(192px, 0px, -8px) rotateY(90deg);
+    }
+
+    .box--top {
+      width: 200px;
+      height: 16px;
+      background: #00f;
+      background: url(https://s3-ap-southeast-2.amazonaws.com/mephystoprojects/alice/paper-horizontal.jpg) no-repeat center center;
+      background-size: cover;
+      -webkit-transform: translate3d(-100px, -150px, 0) translate3d(0px, -8px, 8px) rotateX(90deg);
+              transform: translate3d(-100px, -150px, 0) translate3d(0px, -8px, 8px) rotateX(90deg);
+    }
+
+    .box--bottom {
+      width: 200px;
+      height: 16px;
+      background: #000;
+      background: url(https://s3-ap-southeast-2.amazonaws.com/mephystoprojects/alice/paper-horizontal.jpg) no-repeat center center;
+      background-size: cover;
+      -webkit-transform: translate3d(-100px, -150px, 0) translate3d(0px, 292px, -8px) rotateX(-90deg);
+              transform: translate3d(-100px, -150px, 0) translate3d(0px, 292px, -8px) rotateX(-90deg);
+    }
 /*ROTATING BOOK ENDS HERE*/
