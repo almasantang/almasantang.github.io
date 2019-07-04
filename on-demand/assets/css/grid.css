@@ -18,6 +18,11 @@
 	z-index:1;
 }
 
+.content-vid {
+	padding:0px;
+	z-index:-1;
+}
+
 .content-1 {
 	padding:10px;
 	text-align:center;
